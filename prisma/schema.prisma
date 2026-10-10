@@ -1,0 +1,109 @@
+generator client {
+ provider = "prisma-client-js"
+}
+datasource db {
+ provider = "sqlite"
+ url = env("DATABASE_URL")
+}
+model TravelAgency {
+ id String @id @default(cuid())
+ name String @unique
+ products TravelProduct[]
+}
+model TravelProduct {
+ id String @id
+ name String
+ agencyId String
+ agency TravelAgency @relation(fields:[agencyId], references:[id])
+ country String @default("JP")
+ originCountry String @default("KR")
+ currency String @default("KRW")
+ region String
+ days Int
+ price Int?
+ priceBasis String
+ priceCheckedAt DateTime
+ isDemo Boolean @default(false)
+ verified String @default("unverified")
+ sourceUrl String?
+ image String
+ styles Json
+ places Json
+ flights Json?
+ placeListComplete Boolean @default(false)
+ hotel String?
+ airline String?
+ onsen Boolean?
+ onsenEvidence String
+ shopping Int?
+ optionalCost Int?
+ included String?
+ excluded String?
+ cancellation String?
+ updatedAt DateTime @updatedAt
+ departures DepartureOption[]
+ itinerary ItineraryDay[]
+ mobility MobilityAssessment?
+ sources DataSource[]
+}
+model DepartureOption {
+ id String @id @default(cuid())
+ productId String
+ product TravelProduct @relation(fields:[productId],references:[id],onDelete:Cascade)
+ departureDate String?
+ airport String?
+ peopleMin Int?
+ price Int?
+}
+model ItineraryDay {
+ id String @id @default(cuid())
+ productId String
+ product TravelProduct @relation(fields:[productId],references:[id],onDelete:Cascade)
+ day Int
+ text String
+ stops ItineraryStop[]
+ analysis Json?
+ @@unique([productId,day])
+}
+model ItineraryStop {
+ id String @id @default(cuid())
+ itineraryDayId String
+ itineraryDay ItineraryDay @relation(fields:[itineraryDayId],references:[id],onDelete:Cascade)
+ name String
+ order Int
+ evidence String
+ confidence Float
+ status String
+}
+model MobilityAssessment {
+ id String @id @default(cuid())
+ productId String @unique
+ product TravelProduct @relation(fields:[productId],references:[id],onDelete:Cascade)
+ walking Json
+ vehicle Json
+ rest Json
+ stairs Json
+}
+model DataSource {
+ id String @id @default(cuid())
+ productId String
+ product TravelProduct @relation(fields:[productId],references:[id],onDelete:Cascade)
+ url String?
+ checkedAt DateTime
+ note String
+ collectionMethod String
+}
+model UserPreference {
+ id String @id @default(cuid())
+ sessionId String
+ data Json
+ createdAt DateTime @default(now())
+ expiresAt DateTime
+}
+model ComparisonHistory {
+ id String @id @default(cuid())
+ sessionId String
+ productIds Json
+ createdAt DateTime @default(now())
+ expiresAt DateTime
+}

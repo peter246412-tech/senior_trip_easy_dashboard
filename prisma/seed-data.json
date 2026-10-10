@@ -1,0 +1,1819 @@
+[
+  {
+    "id": "real-hana-kyushu",
+    "name": "규슈/후쿠오카 3일 · 온천 1박·시내 1박",
+    "agency": "하나투어",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "규슈",
+    "days": 3,
+    "price": 649900,
+    "priceBasis": "검색 색인에서 확인한 성인 1인 회원 표시가 649,900원 · 출발일 및 현재 판매가격 확인 필요",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": null,
+    "airport": null,
+    "peopleMin": null,
+    "sourceUrl": "https://www.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=JKP130261102TWH",
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "공식 페이지 검색 색인에서 상품 기본정보를 확인. 직접 재열람 시 주요 일정·가격이 빈 상태로 표시되어 현재 출발일은 미확인. 가격은 실시간 확인값이 아닙니다.",
+    "verified": "partial",
+    "isDemo": false,
+    "image": "/images/onsen.png",
+    "styles": [
+      "온천과 휴식"
+    ],
+    "places": [
+      "유후인",
+      "벳부",
+      "후쿠오카"
+    ],
+    "hotel": "온천호텔 1박 + 후쿠오카 시내호텔 1박 (상품명 기준)",
+    "airline": null,
+    "onsen": true,
+    "onsenEvidence": "공식 상품명: 온천1박",
+    "shopping": null,
+    "optionalCost": null,
+    "included": null,
+    "excluded": "1인 객실 사용료 60,000원 (그 외 항목 확인 필요)",
+    "cancellation": null,
+    "walking": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "vehicle": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "rest": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "stairs": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "itinerary": [],
+    "placeListComplete": false,
+    "flights": []
+  },
+  {
+    "id": "real-yb-osaka",
+    "name": "부산출발 오사카 3일 · 시내호텔 2박·교토·아라시야마",
+    "agency": "노랑풍선",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "오사카·교토",
+    "days": 3,
+    "price": 936400,
+    "priceBasis": "2027-02-09 부산출발 · 성인 1인 표시가 · 특별약관 · 실시간 재확인 필요",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2027-02-09",
+    "airport": "김해",
+    "peopleMin": 4,
+    "sourceUrl": "https://prdt.ybtour.co.kr/product/detailPackage?dspSid=AAJE003&evCd=JOP1275-270209LJ00&menu=PKG",
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "공식 상품 상세의 검색 색인에서 출발일·가격·쇼핑 정보를 확인. 직접 재열람 시 본문이 반환되지 않아 현재 판매 조건은 여행사 확인 필요. 부산출발을 김해 공항으로 정규화했습니다.",
+    "verified": "partial",
+    "isDemo": false,
+    "image": "/images/kyoto.jpg",
+    "styles": [
+      "관광과 문화체험"
+    ],
+    "places": [
+      "오사카",
+      "교토",
+      "고베",
+      "아라시야마"
+    ],
+    "hotel": "오사카 시내호텔 2박 (호텔명 확인 필요)",
+    "airline": "진에어",
+    "onsen": null,
+    "onsenEvidence": "",
+    "shopping": 1,
+    "optionalCost": null,
+    "included": null,
+    "excluded": "가이드·기사 경비 30,000원 / 싱글차지 80,000원",
+    "cancellation": null,
+    "walking": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "vehicle": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "rest": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "stairs": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "itinerary": [],
+    "placeListComplete": false,
+    "flights": []
+  },
+  {
+    "id": "real-easy-921",
+    "name": "큐슈 3일 · 전통온천호텔 1박·시내호텔 1박",
+    "agency": "여행이지",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "규슈",
+    "days": 3,
+    "price": 729000,
+    "priceBasis": "JKP921 · 부산출발 · 성인 1인 최저가 729,000원~ · 날짜별 가격 미확인",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": null,
+    "airport": "김해",
+    "peopleMin": 6,
+    "sourceUrl": "https://www.kyowontour.com/display/masterMain?menuCode=M55010801",
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "공식 목록 JKP921 확인. 출발일 특정 전의 최저가이며 출발 가능일은 원본에서 확인 필요",
+    "verified": "partial",
+    "isDemo": false,
+    "image": "/images/onsen.png",
+    "styles": [
+      "온천과 휴식"
+    ],
+    "places": [
+      "후쿠오카",
+      "유후인",
+      "벳부",
+      "히타"
+    ],
+    "hotel": "전통 료칸호텔 1박 + 후쿠오카 시내호텔 1박",
+    "airline": "에어부산",
+    "onsen": true,
+    "onsenEvidence": "공식 JKP921 카드의 전통온천호텔1박",
+    "shopping": null,
+    "optionalCost": null,
+    "included": null,
+    "excluded": null,
+    "cancellation": null,
+    "walking": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "vehicle": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "rest": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "stairs": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "itinerary": [],
+    "placeListComplete": false,
+    "flights": []
+  },
+  {
+    "id": "real-easy-986",
+    "name": "큐슈 3일 · 품격큐슈·온천호텔 2박",
+    "agency": "여행이지",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "규슈",
+    "days": 3,
+    "price": 789000,
+    "priceBasis": "JKP986 · 부산출발 · 성인 1인 최저가 789,000원~ · 날짜별 가격 미확인",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": null,
+    "airport": "김해",
+    "peopleMin": null,
+    "sourceUrl": "https://www.kyowontour.com/display/masterMain?menuCode=M55010801",
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "공식 목록 JKP986 확인 · 정량 휴식/차량/보행 정보 미확인",
+    "verified": "partial",
+    "isDemo": false,
+    "image": "/images/onsen.png",
+    "styles": [
+      "온천과 휴식"
+    ],
+    "places": [
+      "유후인",
+      "벳부",
+      "아소",
+      "야나가와"
+    ],
+    "hotel": "온천호텔 2박 (호텔명 미확인)",
+    "airline": "에어부산",
+    "onsen": true,
+    "onsenEvidence": "공식 JKP986 카드: 온천호텔 2박",
+    "shopping": null,
+    "optionalCost": null,
+    "included": null,
+    "excluded": null,
+    "cancellation": null,
+    "walking": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "vehicle": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "rest": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "stairs": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "itinerary": [],
+    "placeListComplete": false,
+    "flights": []
+  },
+  {
+    "id": "real-vgt-025",
+    "name": "도카치가와 미인온천·전통료칸 · 북해도/비에이 4일",
+    "agency": "참좋은여행",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "홋카이도",
+    "days": 4,
+    "price": 1099000,
+    "priceBasis": "JPP025 · 성인 1인 최저가 1,099,000원~ · 출발일별 가격 미확인",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": null,
+    "airport": null,
+    "peopleMin": null,
+    "sourceUrl": "https://www.verygoodtour.com/Home/PackageMain",
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "공식 목록 JPP025의 상품 기본 정보만 확인. 일자별 상세 일정은 미확인",
+    "verified": "partial",
+    "isDemo": false,
+    "image": "/images/hokkaido-lake.jpg",
+    "styles": [
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "도카치가와",
+      "비에이"
+    ],
+    "hotel": "전통료칸 (호텔명 확인 필요)",
+    "airline": null,
+    "onsen": true,
+    "onsenEvidence": "공식 목록 JPP025: 모르온천",
+    "shopping": null,
+    "optionalCost": null,
+    "included": "팁 포함 (그 외 포함 항목 확인 필요)",
+    "excluded": null,
+    "cancellation": null,
+    "walking": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "vehicle": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "rest": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "stairs": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "itinerary": [],
+    "placeListComplete": false,
+    "flights": []
+  },
+  {
+    "id": "real-vgt-6690",
+    "name": "히노데 시내 온천호텔 3연박 · 오사카 핵심 4일",
+    "agency": "참좋은여행",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "오사카·교토",
+    "days": 4,
+    "price": 999000,
+    "priceBasis": "JPP6690 · 성인 1인 최저가 999,000원~ · 출발일별 가격 미확인",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": null,
+    "airport": null,
+    "peopleMin": null,
+    "sourceUrl": "https://www.verygoodtour.com/Home/PackageMain",
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "공식 목록 JPP6690 확인 · 온천호텔 연박이 정량 휴식시간을 보장하지는 않음",
+    "verified": "partial",
+    "isDemo": false,
+    "image": "/images/kyoto.jpg",
+    "styles": [
+      "온천과 휴식",
+      "관광과 문화체험"
+    ],
+    "places": [
+      "교토",
+      "고베",
+      "나라",
+      "오사카"
+    ],
+    "hotel": "히노데 시내 온천호텔 3연박",
+    "airline": null,
+    "onsen": true,
+    "onsenEvidence": "공식 목록 JPP6690: 시내 온천호텔 3연박",
+    "shopping": null,
+    "optionalCost": null,
+    "included": "팁 포함 (그 외 포함 항목 확인 필요)",
+    "excluded": null,
+    "cancellation": null,
+    "walking": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "vehicle": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "rest": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "stairs": {
+      "value": null,
+      "status": "unknown",
+      "evidence": "공식 공개 정보에 정량 근거 없음"
+    },
+    "itinerary": [],
+    "placeListComplete": false,
+    "flights": []
+  },
+  {
+    "id": "demo-01",
+    "name": "유후인에서 느리게, 온천 쉼표",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "규슈",
+    "days": 3,
+    "price": 890000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/onsen.png",
+    "styles": [
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "후쿠오카",
+      "유후인"
+    ],
+    "hotel": "DEMO 온천호텔 2박",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 0,
+    "optionalCost": 0,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 1.2,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 1.2km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 80,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 80분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 180,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 180분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 0,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 후쿠오카 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "후쿠오카"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 유후인 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "유후인"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-011",
+        "aircraft": "Boeing 787-9",
+        "body": "wide",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 84,
+        "widthCm": 46,
+        "departureTime": "09:30",
+        "arrivalTime": "11:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-012",
+        "aircraft": "Boeing 787-9",
+        "body": "wide",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 84,
+        "widthCm": 46,
+        "departureTime": "13:00",
+        "arrivalTime": "14:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "demo-02",
+    "name": "벳푸 온천과 작은 마을 산책",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "규슈",
+    "days": 3,
+    "price": 790000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/onsen.png",
+    "styles": [
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "후쿠오카",
+      "유후인"
+    ],
+    "hotel": "DEMO 온천호텔 2박",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 0,
+    "optionalCost": 0,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 1.8,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 1.8km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 110,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 110분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 150,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 150분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 0,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 후쿠오카 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "후쿠오카"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 유후인 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "유후인"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-021",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "09:30",
+        "arrivalTime": "11:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-022",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "13:00",
+        "arrivalTime": "14:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "demo-03",
+    "name": "규슈의 맛, 여유로운 미식 여행",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "규슈",
+    "days": 3,
+    "price": 990000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/onsen.png",
+    "styles": [
+      "맛집과 음식",
+      "적당한 관광과 휴식",
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "후쿠오카",
+      "유후인",
+      "긴린호수",
+      "벳푸"
+    ],
+    "hotel": "DEMO 시내호텔",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 0,
+    "optionalCost": 60000,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 2.5,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 2.5km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 100,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 100분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 120,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 120분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 0,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 후쿠오카 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "후쿠오카"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 유후인 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "유후인"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-031",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "18:30",
+        "arrivalTime": "20:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-032",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "17:00",
+        "arrivalTime": "18:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "demo-04",
+    "name": "후쿠오카·아소 핵심 풍경 여행",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "규슈",
+    "days": 3,
+    "price": 690000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/onsen.png",
+    "styles": [
+      "관광과 문화체험",
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "후쿠오카",
+      "유후인",
+      "긴린호수",
+      "벳푸"
+    ],
+    "hotel": "DEMO 시내호텔",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 1,
+    "optionalCost": 60000,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 3.6,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 3.6km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 160,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 160분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 100,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 100분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 1,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 후쿠오카 관광. 점심 식사 후 호텔 휴식 및 자유시간.",
+        "stops": [
+          "후쿠오카"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 유후인 관광. 점심 식사 후 호텔 휴식 및 자유시간.",
+        "stops": [
+          "유후인"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-041",
+        "aircraft": "Boeing 787-9",
+        "body": "wide",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 84,
+        "widthCm": 46,
+        "departureTime": "09:30",
+        "arrivalTime": "11:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-042",
+        "aircraft": "Boeing 787-9",
+        "body": "wide",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 84,
+        "widthCm": 46,
+        "departureTime": "13:00",
+        "arrivalTime": "14:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "demo-05",
+    "name": "교토의 아침, 문화와 온천",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "오사카·교토",
+    "days": 4,
+    "price": 1090000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/kyoto.jpg",
+    "styles": [
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "오사카성",
+      "도톤보리"
+    ],
+    "hotel": "DEMO 온천호텔 2박",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 0,
+    "optionalCost": 0,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 2.8,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 2.8km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 90,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 90분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 130,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 130분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 0,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 오사카성 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "오사카성"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 도톤보리 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "도톤보리"
+        ]
+      },
+      {
+        "day": 4,
+        "text": "DEMO 일정 4일 차: 호텔 조식 후 아라시야마 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "아라시야마"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-051",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "09:30",
+        "arrivalTime": "11:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-052",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "13:00",
+        "arrivalTime": "14:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "demo-06",
+    "name": "오사카 시내 연박, 가벼운 산책",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "오사카·교토",
+    "days": 4,
+    "price": 930000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/kyoto.jpg",
+    "styles": [
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "오사카성",
+      "도톤보리"
+    ],
+    "hotel": "DEMO 온천호텔 2박",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 0,
+    "optionalCost": 0,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 1.5,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 1.5km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 60,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 60분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 160,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 160분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 0,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 오사카성 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "오사카성"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 도톤보리 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "도톤보리"
+        ]
+      },
+      {
+        "day": 4,
+        "text": "DEMO 일정 4일 차: 호텔 조식 후 아라시야마 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "아라시야마"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-061",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "18:30",
+        "arrivalTime": "20:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-062",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "17:00",
+        "arrivalTime": "18:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "demo-07",
+    "name": "교토·나라 알찬 문화 여행",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "오사카·교토",
+    "days": 4,
+    "price": 750000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/kyoto.jpg",
+    "styles": [
+      "맛집과 음식",
+      "적당한 관광과 휴식",
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "오사카성",
+      "도톤보리",
+      "아라시야마",
+      "기요미즈데라"
+    ],
+    "hotel": "DEMO 시내호텔",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 1,
+    "optionalCost": 60000,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 3.2,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 3.2km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 150,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 150분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 115,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 115분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 1,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 오사카성 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "오사카성"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 도톤보리 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "도톤보리"
+        ]
+      },
+      {
+        "day": 4,
+        "text": "DEMO 일정 4일 차: 호텔 조식 후 아라시야마 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "아라시야마"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-071",
+        "aircraft": "Boeing 787-9",
+        "body": "wide",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 84,
+        "widthCm": 46,
+        "departureTime": "09:30",
+        "arrivalTime": "11:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-072",
+        "aircraft": "Boeing 787-9",
+        "body": "wide",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 84,
+        "widthCm": 46,
+        "departureTime": "13:00",
+        "arrivalTime": "14:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "demo-08",
+    "name": "오사카 미식과 하루 자유시간",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "오사카·교토",
+    "days": 4,
+    "price": 880000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/kyoto.jpg",
+    "styles": [
+      "관광과 문화체험",
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "오사카성",
+      "도톤보리",
+      "아라시야마",
+      "기요미즈데라"
+    ],
+    "hotel": "DEMO 시내호텔",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 0,
+    "optionalCost": 60000,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 2.4,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 2.4km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 80,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 80분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 140,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 140분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 0,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 오사카성 관광. 점심 식사 후 호텔 휴식 및 자유시간.",
+        "stops": [
+          "오사카성"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 도톤보리 관광. 점심 식사 후 호텔 휴식 및 자유시간.",
+        "stops": [
+          "도톤보리"
+        ]
+      },
+      {
+        "day": 4,
+        "text": "DEMO 일정 4일 차: 호텔 조식 후 아라시야마 관광. 점심 식사 후 호텔 휴식 및 자유시간.",
+        "stops": [
+          "아라시야마"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-081",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "09:30",
+        "arrivalTime": "11:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-082",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "13:00",
+        "arrivalTime": "14:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "demo-09",
+    "name": "홋카이도 호수와 온천 휴식",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "홋카이도",
+    "days": 4,
+    "price": 1290000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/hokkaido-lake.jpg",
+    "styles": [
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "삿포로",
+      "오타루"
+    ],
+    "hotel": "DEMO 온천호텔 2박",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 0,
+    "optionalCost": 0,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 1.3,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 1.3km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 160,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 160분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 180,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 180분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 0,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 삿포로 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "삿포로"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 오타루 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "오타루"
+        ]
+      },
+      {
+        "day": 4,
+        "text": "DEMO 일정 4일 차: 호텔 조식 후 도야호수 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "도야호수"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-091",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "18:30",
+        "arrivalTime": "20:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-092",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "17:00",
+        "arrivalTime": "18:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "demo-10",
+    "name": "오타루·삿포로 느린 여행",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "홋카이도",
+    "days": 4,
+    "price": 1190000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/hokkaido-lake.jpg",
+    "styles": [
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "삿포로",
+      "오타루"
+    ],
+    "hotel": "DEMO 온천호텔 2박",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 0,
+    "optionalCost": 0,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 2.3,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 2.3km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 100,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 100분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 130,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 130분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 0,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 삿포로 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "삿포로"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 오타루 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "오타루"
+        ]
+      },
+      {
+        "day": 4,
+        "text": "DEMO 일정 4일 차: 호텔 조식 후 도야호수 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "도야호수"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-101",
+        "aircraft": "Boeing 787-9",
+        "body": "wide",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 84,
+        "widthCm": 46,
+        "departureTime": "09:30",
+        "arrivalTime": "11:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-102",
+        "aircraft": "Boeing 787-9",
+        "body": "wide",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 84,
+        "widthCm": 46,
+        "departureTime": "13:00",
+        "arrivalTime": "14:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "demo-11",
+    "name": "비에이 자연을 만나는 4일",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "홋카이도",
+    "days": 4,
+    "price": 1390000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/hokkaido-lake.jpg",
+    "styles": [
+      "맛집과 음식",
+      "적당한 관광과 휴식",
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "삿포로",
+      "오타루",
+      "도야호수",
+      "노보리베츠"
+    ],
+    "hotel": "DEMO 시내호텔",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 0,
+    "optionalCost": 60000,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 2.7,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 2.7km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 160,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 160분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 125,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 125분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 1,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 삿포로 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "삿포로"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 오타루 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "오타루"
+        ]
+      },
+      {
+        "day": 4,
+        "text": "DEMO 일정 4일 차: 호텔 조식 후 도야호수 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "도야호수"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-111",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "09:30",
+        "arrivalTime": "11:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-112",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "13:00",
+        "arrivalTime": "14:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "demo-12",
+    "name": "홋카이도 핵심 일주 5일",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "홋카이도",
+    "days": 5,
+    "price": 1590000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/hokkaido-lake.jpg",
+    "styles": [
+      "관광과 문화체험",
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "삿포로",
+      "오타루",
+      "도야호수",
+      "노보리베츠"
+    ],
+    "hotel": "DEMO 시내호텔",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 1,
+    "optionalCost": 60000,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 3.1,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 3.1km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 180,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 180분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 110,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 110분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 1,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 삿포로 관광. 점심 식사 후 호텔 휴식 및 자유시간.",
+        "stops": [
+          "삿포로"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 오타루 관광. 점심 식사 후 호텔 휴식 및 자유시간.",
+        "stops": [
+          "오타루"
+        ]
+      },
+      {
+        "day": 4,
+        "text": "DEMO 일정 4일 차: 호텔 조식 후 도야호수 관광. 점심 식사 후 호텔 휴식 및 자유시간.",
+        "stops": [
+          "도야호수"
+        ]
+      },
+      {
+        "day": 5,
+        "text": "DEMO 일정 5일 차: 호텔 조식 후 노보리베츠 관광. 점심 식사 후 호텔 휴식 및 자유시간.",
+        "stops": [
+          "노보리베츠"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-121",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "18:30",
+        "arrivalTime": "20:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-122",
+        "aircraft": "Airbus A320",
+        "body": "narrow",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 74,
+        "widthCm": 44,
+        "departureTime": "17:00",
+        "arrivalTime": "18:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  }
+]

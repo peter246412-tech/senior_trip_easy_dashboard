@@ -1,0 +1,115 @@
+[
+  {
+    "id": "demo-01",
+    "name": "유후인에서 느리게, 온천 쉼표",
+    "agency": "EASY TRIP 데모 여행사",
+    "country": "JP",
+    "originCountry": "KR",
+    "currency": "KRW",
+    "region": "규슈",
+    "days": 3,
+    "price": 890000,
+    "priceBasis": "DEMO · 가상의 성인 1인 2인 1실 기준 (실제 판매 가격 아님)",
+    "priceCheckedAt": "2026-10-10T08:30:00.000Z",
+    "departureDate": "2026-11-15",
+    "airport": "인천",
+    "peopleMin": 2,
+    "sourceUrl": null,
+    "checkedAt": "2026-10-10T08:30:00.000Z",
+    "sourceNote": "가상 상품. 가격·일정·평가 모두 시연용 가정이며 예약할 수 없습니다.",
+    "verified": "unverified",
+    "isDemo": true,
+    "image": "/images/onsen.png",
+    "styles": [
+      "온천과 휴식",
+      "자연과 풍경"
+    ],
+    "places": [
+      "후쿠오카",
+      "유후인"
+    ],
+    "hotel": "DEMO 온천호텔 2박",
+    "airline": "DEMO 항공편",
+    "onsen": true,
+    "onsenEvidence": "DEMO: 일정 중 온천 휴식 포함 가정",
+    "shopping": 0,
+    "optionalCost": 0,
+    "included": "DEMO 가정: 왕복 항공·호텔·일정상 식사·가이드",
+    "excluded": "DEMO 가정: 개인 경비·싱글룸 추가 요금",
+    "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
+    "walking": {
+      "value": 1.2,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 1.2km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "vehicle": {
+      "value": 80,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 80분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "rest": {
+      "value": 180,
+      "status": "estimated",
+      "evidence": "DEMO 가상 예시: 하루 평균 180분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
+    },
+    "stairs": {
+      "value": 0,
+      "status": "estimated",
+      "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "text": "DEMO 일정 1일 차: 인천 출발, 전용버스로 호텔 이동. 저녁 식사 후 휴식.",
+        "stops": []
+      },
+      {
+        "day": 2,
+        "text": "DEMO 일정 2일 차: 호텔 조식 후 후쿠오카 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "후쿠오카"
+        ]
+      },
+      {
+        "day": 3,
+        "text": "DEMO 일정 3일 차: 호텔 조식 후 유후인 관광. 점심 식사 후 호텔 휴식 및 온천.",
+        "stops": [
+          "유후인"
+        ]
+      }
+    ],
+    "placeListComplete": true,
+    "flights": [
+      {
+        "direction": "outbound",
+        "number": "DEMO-011",
+        "aircraft": "Boeing 787-9",
+        "body": "wide",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 84,
+        "widthCm": 46,
+        "departureTime": "09:30",
+        "arrivalTime": "11:00",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      },
+      {
+        "direction": "return",
+        "number": "DEMO-012",
+        "aircraft": "Boeing 787-9",
+        "body": "wide",
+        "cabin": "일반석 (가상 좌석 구성)",
+        "pitchCm": 84,
+        "widthCm": 46,
+        "departureTime": "13:00",
+        "arrivalTime": "14:30",
+        "durationMinutes": 90,
+        "evidence": "DEMO: 시간·기종·좌석 간격·폭은 비교 기능 시연을 위한 가상 가정입니다. 실제 항공편이나 해당 기종의 좌석 사양을 나타내지 않습니다.",
+        "sourceUrl": null,
+        "checkedAt": "2026-10-10T08:30:00.000Z"
+      }
+    ]
+  }
+]

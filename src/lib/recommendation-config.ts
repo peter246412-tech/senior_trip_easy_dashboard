@@ -1,0 +1,2 @@
+export const recommendationConfig = { weights: { walking:25, rest:20, style:20, budget:15, vehicle:10, shopping:10, stairs:10, duration:6, density:6, flightTime:8, aircraft:6, weather:6 }, priorityBoost:[1.8,1.5,1.25], estimateConfidence:0.7 };
+export const priorityLabels: Record<string,string> = { walking:"걷는 부담이 적은 여행",rest:"휴식이 충분한 여행",budget:"합리적인 가격",density:"관광지가 알찬 여행",vehicle:"차량 이동이 편안한 여행",shopping:"쇼핑 일정이 적은 여행" };

@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Seoul",
+  "build": "passed",
+  "typecheck": "passed",
+  "unit": {
+    "passed": 17,
+    "failed": 0
+  },
+  "e2e": {
+    "browser": "Chromium",
+    "passed": 10,
+    "failed": 0,
+    "durationSeconds": 16.5
+  },
+  "accessibility": {
+    "tool": "axe-core",
+    "tags": [
+      "wcag2a",
+      "wcag2aa",
+      "wcag21aa"
+    ],
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "paths": [
+      "/",
+      "/preferences",
+      "/trips",
+      "/compare?ids=demo-01,demo-02,demo-03",
+      "/parents/demo-01",
+      "/trips/demo-03",
+      "/booking/demo-01",
+      "/about",
+      "/admin"
+    ],
+    "violations": 0
+  },
+  "securityAuditReportedVulnerabilities": 0,
+  "liveWeatherSmoke": {
+    "status": "passed",
+    "city": "후쿠오카",
+    "dates": [
+      "2026-10-11",
+      "2026-10-12",
+      "2026-10-13"
+    ],
+    "fields": [
+      "temperature",
+      "rain probability",
+      "precipitation",
+      "wind"
+    ]
+  },
+  "premiumPresentation": {
+    "brand": "easyTrip",
+    "demoAverageDefaultScore": 89.4,
+    "scoreRange": [
+      71,
+      100
+    ],
+    "fictionalProducts": 12,
+    "actualProductsUnmodified": 6,
+    "checkout": "demo only; zero real charge; no card data"
+  },
+  "seniorReadability": {
+    "defaultRootFontPx": 20,
+    "extraLargeRootFontPx": 24,
+    "cardTitleMobilePx": 27,
+    "cardMetricMobilePx": 21.6,
+    "primaryButtonMinHeightPx": 60,
+    "mobileColumns": 1,
+    "desktopCardColumns": 2,
+    "extraLargeNoOverflowPaths": [
+      "/trips",
+      "/preferences",
+      "/trips/demo-01",
+      "/booking/demo-01",
+      "/compare?ids=demo-01,demo-02,demo-03",
+      "/parents/demo-01"
+    ]
+  }
+}
