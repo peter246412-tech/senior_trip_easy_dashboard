@@ -8,3 +8,6 @@
 - 초기 검토용 `kyushu.jpg` (일본 밤거리), `hokkaido.jpg` (일본이 아닌 산 풍경)는 최종 상품/홈 대표 이미지에 사용하지 않습니다.
 
 Unsplash 사진은 2026-10-10 [Unsplash License](https://unsplash.com/license)를 확인하고 다운로드했습니다. 상업·비상업 사용과 수정이 허용되며 원본 사진 자체를 판매하지 않습니다. 출처는 이 문서에 기록했습니다. 이미지가 일정의 실제 장소·시설을 보증하지 않습니다.
+
+- 여행이지 / TripEasy 브랜드 심볼: 자체 제작 SVG. 웃는 여행 가방과 작은 비행기, 기존 초록색 팔레트 사용. 원본: `public/brand/tripeasy-mark.svg`.
+- 로고 전용 Jua 한글 폰트: Google Fonts 공식 저장소 https://github.com/google/fonts/tree/main/ofl/jua . 로컬 TTF 및 OFL 라이선스 `public/fonts/`에 포함.
