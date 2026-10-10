@@ -1,4 +1,4 @@
-# easyTrip
+# 여행이지 · TripEasy
 
 부모님의 일본 패키지여행을 준비하는 성인 자녀를 위한 비교·추천 MVP입니다. 로컬 SQLite에 실제 조사 상품 6개와 DEMO 12개를 저장합니다. API 키 없이 검색·추천·비교·부모님 화면·관리자 CRUD가 작동합니다.
 
@@ -108,7 +108,7 @@ npm run build
 npm run start
 ```
 
-macOS에서는 `start-easy-trip.command`를 더블클릭하거나 터미널에서 실행할 수 있습니다. 포트 3000이 이미 사용 중이면 기존 easyTrip 서버를 사용하거나 먼저 종료하세요.
+macOS에서는 `start-easy-trip.command`를 더블클릭하거나 터미널에서 실행할 수 있습니다. 포트 3000이 이미 사용 중이면 기존 여행이지 서버를 사용하거나 먼저 종료하세요.
 
 외부 HTTPS 배포 전 `APP_ORIGIN=https://your-domain.example`, `COOKIE_SECURE=true`를 설정하고 인증의 로그인 제한을 공유 저장소로 교체하세요. 현재 기본 바인딩은 127.0.0.1입니다. 공개 사이트 배포·여행사 제휴·실제 예약·실제 결제는 수행하지 않았습니다. DEMO 예약 화면은 실제 청구 없이 흐름만 체험합니다.
 
