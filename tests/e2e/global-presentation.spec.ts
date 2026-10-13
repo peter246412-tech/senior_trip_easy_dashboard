@@ -11,18 +11,18 @@ test("60-90 second demo preserves normal conditions and compares three products"
  for(let i=0;i<3;i++)await page.getByRole("button",{name:"다음",exact:true}).click();
  await page.getByRole("button",{name:"부모님께 맞는 여행 추천받기"}).click();
  await expect(page).toHaveURL(/recommended=1&demo=1/);await expect(page.locator(".top-results .trip-card")).toHaveCount(3);
- await expect(page.locator(".top-results")).not.toContainText("근거 신뢰");await expect(page.locator(".top-results")).toContainText("데모 예시");
+ await expect(page.locator(".top-results")).not.toContainText("근거 신뢰");await expect(page.locator(".top-results .trip-fact")).toHaveCount(15);
  await page.getByRole("link",{name:"추천 3개 한눈에 비교하기 →"}).click();await expect(page.locator(".compare-card")).toHaveCount(3);
  await expect(page.locator(".comparison-page")).toHaveClass(/projector-mode/);await expect(page.locator(".comparison-mobility-row")).toHaveCount(3);
  await expect(page.locator(".compare-reasons")).toHaveCount(3);await expect(page.locator(".compare-cautions")).toHaveCount(3);
  await page.evaluate(()=>{window.scrollTo(0,0);(document.activeElement as HTMLElement)?.blur();});await page.screenshot({path:"docs/global-compare-desktop.png",fullPage:true});
  await page.reload();await expect(page.locator(".presentation-banner")).toBeVisible();
- await page.getByRole("link",{name:"시연 종료 · 내 조건 복원"}).click();
+ await page.getByRole("link",{name:"기본 조건으로 돌아가기"}).click();
  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem("easytrip-preference")!).budget)).toBe(1600000);await expect(page.locator(".presentation-banner")).toHaveCount(0);expect(errors).toEqual([]);
 });
 test("quick result URL, unknown real data and mixed comparison remain honest",async({page,request})=>{
  await page.goto("/trips?recommended=1&demo=1");await expect(page.locator(".top-results .trip-card")).toHaveCount(3);
- await page.goto("/compare?ids=demo-01,real-easy-921&demo=1");await expect(page.locator(".warning-box")).toContainText("실제 조사 상품과 데모 예시");
+ await page.goto("/compare?ids=demo-01,real-easy-921&demo=1");await expect(page.locator(".warning-box")).toContainText("서로 다른 자료의 상품");
  await expect(page.locator(".comparison-mobility")).toContainText("정보 없음");await expect(page.locator(".comparison-mobility")).not.toContainText("지도 기반 추정");
  await page.goto("/trips/real-easy-921");await expect(page.locator(".detail-metrics")).toContainText("정보 없음");await expect(page.locator(".detail-metrics .metric-state.confirmed")).toHaveCount(0);
  expect((await request.post(`${publicBase}/api/trips`,{data:{}})).status()).toBe(403);

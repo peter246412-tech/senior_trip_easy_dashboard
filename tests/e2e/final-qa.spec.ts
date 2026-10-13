@@ -1,12 +1,12 @@
 import {test,expect} from "@playwright/test";
 test.use({baseURL:"http://127.0.0.1:3002"});
-test("normal and recommended cards consistently display provenance without confidence percentages",async({page})=>{
+test("normal and recommended cards keep concise facts without repeated data badges",async({page})=>{
  for(const path of ["/trips","/trips?recommended=1","/trips?recommended=1&demo=1"]){
  await page.goto(path);await expect(page.locator(".trip-card").first()).toBeVisible();
  await expect(page.locator("body")).not.toContainText("근거 신뢰");await expect(page.locator("body")).not.toContainText("추정됨");
- for(const card of await page.locator(".trip-card").all()) {await expect(card.locator(".data-summary")).toHaveText("이동·휴식: 데모 예시");await expect(card.locator(".trip-metrics .metric-state.demo")).toHaveCount(3);}
+ for(const card of await page.locator(".trip-card").all()) {await expect(card.locator(".trip-fact")).toHaveCount(5);await expect(card.locator(".metric-state,.data-summary")).toHaveCount(0);await expect(card).not.toContainText("DEMO");await expect(card).not.toContainText("데모 예시");}
  }
- await expect(page.locator(".tie-differences").first()).toContainText("조건의 차이");
+ await page.locator(".card-details summary").first().click();await expect(page.locator(".tie-differences").first()).toContainText("조건의 차이");
 });
 test("two and three product comparisons use readable differences and original scores",async({page})=>{
  for(const ids of ["demo-01,demo-02","demo-01,demo-02,demo-03"]){

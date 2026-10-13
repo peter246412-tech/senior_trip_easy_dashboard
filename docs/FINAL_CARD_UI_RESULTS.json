@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-13",
+  "widths": [
+    1440,
+    1024,
+    390
+  ],
+  "typecheck": {
+    "original": "passed",
+    "public": "passed"
+  },
+  "build": {
+    "original": "passed",
+    "public": "passed"
+  },
+  "unitTests": 29,
+  "browserTests": 21,
+  "failed": 0,
+  "seconds": 28.8,
+  "horizontalOverflow": false,
+  "iconTextOverlaps": 0,
+  "wordSplitting": 0,
+  "desktopCardHeightDifferenceLimitPx": 2,
+  "accessibilityViolations": 0,
+  "recommendationAndDataUnchanged": true,
+  "deployment": "awaiting upload to existing Vercel project"
+}
