@@ -416,22 +416,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 1.2,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 1.2km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 80,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 80분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 180,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 180분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 0,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [
@@ -529,22 +529,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 1.8,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 1.8km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 110,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 110분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 150,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 150분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 0,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [
@@ -646,22 +646,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 2.5,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 2.5km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 100,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 100분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 120,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 120분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 0,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [
@@ -762,22 +762,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 3.6,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 3.6km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 160,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 160분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 100,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 100분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 1,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [
@@ -875,22 +875,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 2.8,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 2.8km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 90,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 90분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 130,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 130분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 0,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [
@@ -995,22 +995,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 1.5,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 1.5km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 60,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 60분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 160,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 160분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 0,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [
@@ -1119,22 +1119,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 3.2,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 3.2km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 150,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 150분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 115,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 115분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 1,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [
@@ -1242,22 +1242,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 2.4,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 2.4km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 80,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 80분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 140,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 140분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 0,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [
@@ -1362,22 +1362,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 1.3,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 1.3km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 160,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 160분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 180,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 180분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 0,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [
@@ -1482,22 +1482,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 2.3,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 2.3km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 100,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 100분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 130,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 130분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 0,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [
@@ -1606,22 +1606,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 2.7,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 2.7km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 160,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 160분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 125,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 125분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 1,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [
@@ -1729,22 +1729,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 3.1,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 3.1km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 180,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 180분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 110,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 110분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 1,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [

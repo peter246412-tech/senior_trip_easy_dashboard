@@ -1,0 +1,5 @@
+"use client";
+import Link from "next/link";
+import { useTripContext } from "./provider";
+export function DemoLaunch(){const ctx=useTripContext();return <section className="container presentation-launch"><div><span className="eyebrow">60~90초 발표 시연</span><h2>여행 일정은 자세하지만,<br/>여행의 부담은 보이지 않는다.</h2><p>예시 조건 입력 → 추천 3개 → 이동·휴식 비교</p></div><div className="presentation-actions"><Link className="button button-primary" href="/preferences?demo=1" onClick={ctx.startDemo}>발표 시연 시작하기 →</Link><Link className="button button-outline" href="/trips?recommended=1&demo=1" onClick={ctx.startDemo}>예시 추천 결과 바로 보기</Link><small>일본 가상 상품으로 기능 시연 · 실제 예약·결제 없음</small></div></section>;}
+export function DemoBanner(){const ctx=useTripContext();return ctx.demoMode?<div className="container"><aside className="presentation-banner" aria-label="발표 시연 모드"><div><strong>발표 시연 모드 · 예시 데이터</strong><span>온천·휴식 / 짧은 걷기 / 규슈 3일 / 1인 100만원</span></div><Link className="text-link" href="/" onClick={ctx.endDemo}>시연 종료 · 내 조건 복원</Link></aside></div>:null;}

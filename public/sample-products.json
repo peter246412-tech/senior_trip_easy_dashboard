@@ -39,22 +39,22 @@
     "cancellation": "DEMO 가상 상품이므로 실제 예약·취소·환불 조건이 없습니다.",
     "walking": {
       "value": 1.2,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 1.2km. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "vehicle": {
       "value": 80,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 80분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "rest": {
       "value": 180,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO 가상 예시: 하루 평균 180분. 프레젠테이션 시연을 위한 설정값이며 실제 현장 분석 결과가 아닙니다."
     },
     "stairs": {
       "value": 0,
-      "status": "estimated",
+      "status": "demo",
       "evidence": "DEMO: 가상 동선의 계단·경사 조건 예시"
     },
     "itinerary": [

@@ -1,0 +1,5 @@
+import { Trip } from "@/lib/types";
+import { dataLabels, metricDisplay, metricState, type MetricKind, dataSummary } from "@/lib/data-state";
+export function DataBadge({trip,kind}:{trip:Trip;kind:MetricKind}) {const state=metricState(trip,kind);return <span className={`metric-state ${state}`}>{dataLabels[state]}</span>;}
+export function MetricInfo({trip,kind,source=false}:{trip:Trip;kind:MetricKind;source?:boolean}) {const state=metricState(trip,kind),m=trip[kind];return <div className="metric-info"><strong>{metricDisplay(trip,kind).split(" · ")[0]}</strong><DataBadge trip={trip} kind={kind}/>{source&&<details className="metric-source"><summary>출처 · 근거</summary><p>{state==="unknown"?"값을 확인하거나 계산할 근거가 없습니다. 여행사에 확인해주세요.":state==="demo"?"발표를 위해 설정한 가상 값입니다. 실제 측정·AI 분석·지도 계산 결과가 아닙니다.":m.evidence}</p>{state==="demo"&&<p>{m.evidence}</p>}{m.sourceUrl&&!trip.isDemo&&state!=="unknown"&&<a href={m.sourceUrl} target="_blank" rel="noopener noreferrer">해당 수치 출처 ↗</a>}{m.checkedAt&&!trip.isDemo&&<p>확인일: {m.checkedAt.slice(0,10)}</p>}</details>}</div>;}
+export function DataSummary({trip}:{trip:Trip}) {return <span className="data-summary">{dataSummary(trip)}</span>;}

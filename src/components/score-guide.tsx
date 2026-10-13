@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function ScoreGuide(){return <details className="score-guide"><summary>조건 일치 점수 계산 기준</summary><p>각 조건의 일치도 × 가중치를 합산한 뒤 전체 가중치로 나누어 100점으로 환산합니다. 우선순위 1·2·3위는 각각 1.8·1.5·1.25배 반영합니다.</p><p>걷기 선호 기준은 짧게 2km·적당히 4km·길게 7km/일, 충분한 휴식은 120분/일, 짧은 차량 이동은 180분/일입니다. 서비스의 비교 기준이며 의료적 판단 기준이 아닙니다.</p><p>정보가 없는 항목은 일치도 0으로 계산하고 별도로 알립니다. 높은 점수는 안전성·정확도·여행 가능성을 보장하지 않습니다. 데모 수치의 점수는 가상 조건 비교입니다.</p><Link className="text-link" href="/about#scoring">전체 가중치와 계산 방식 보기 →</Link></details>;}
