@@ -1,5 +1,7 @@
 "use client";
-import { useEffect,useState } from "react";
+import { CardWeather } from "./card-facts";
+import { mealSummary,mealDataLabel } from "@/lib/card-facts";
+import { useEffect,useState,type ReactNode } from "react";
 import Link from "next/link";
 import { X,Gift,ArrowUpRight,GitCompareArrows } from "lucide-react";
 import { Trip,money,unknownText } from "@/lib/types";
@@ -11,8 +13,8 @@ import { useTripContext } from "./provider";
 import { MetricInfo,DataSummary } from "./metric-info";
 import { ScoreGuide } from "./score-guide";
 import { DemoBanner } from "./presentation";
-type Row={label:string;value:(t:Trip)=>string;status?:(t:Trip)=>string};
-const coreRows:Row[]=[{label:"여행지 · 기간",value:t=>`${countryName(t.country)} · ${t.region} · ${t.days}일`},{label:"1인 가격",value:t=>money(t.price)},{label:"관광 스타일",value:t=>t.styles.join(" · ")||unknownText},{label:"계단·경사",value:t=>metricDisplay(t,"stairs"),status:t=>dataLabels[metricState(t,"stairs")]},{label:"여행사",value:t=>t.agency},{label:"온천",value:t=>t.onsen===null?unknownText:t.onsen?"포함":"미포함"},{label:"쇼핑 횟수",value:t=>t.shopping===null?unknownText:`${t.shopping}회`}];
+type Row={label:string;value:(t:Trip)=>ReactNode;status?:(t:Trip)=>string};
+const coreRows:Row[]=[{label:"식사",value:mealSummary,status:t=>mealDataLabel(t)??""},{label:"날씨",value:t=><CardWeather trip={t}/>},{label:"여행지 · 기간",value:t=>`${countryName(t.country)} · ${t.region} · ${t.days}일`},{label:"1인 가격",value:t=>money(t.price)},{label:"관광 스타일",value:t=>t.styles.join(" · ")||unknownText},{label:"계단·경사",value:t=>metricDisplay(t,"stairs"),status:t=>dataLabels[metricState(t,"stairs")]},{label:"여행사",value:t=>t.agency},{label:"온천",value:t=>t.onsen===null?unknownText:t.onsen?"포함":"미포함"},{label:"쇼핑 횟수",value:t=>t.shopping===null?unknownText:`${t.shopping}회`}];
 const extraRows:Row[]=[{label:"주요 관광지",value:t=>t.places.join(" · ")||unknownText},{label:"관광 일정 밀도",value:t=>t.places.length?`주요 ${t.places.length}곳 / ${t.days}일 (내부 동선 미확인)`:unknownText},{label:"숙박 정보",value:t=>t.hotel??unknownText},{label:"출발일 · 공항",value:t=>`${t.departureDate??unknownText} · ${t.airport??unknownText}`},{label:"가격 기준",value:t=>t.priceBasis},{label:"항공편 · 시간",value:flightSummary},{label:"여행 시기 날씨",value:t=>weatherSummary(t)},{label:"선택관광 비용",value:t=>money(t.optionalCost)},{label:"포함 사항",value:t=>t.included??unknownText},{label:"불포함 사항",value:t=>t.excluded??unknownText},{label:"취소·환불 조건",value:t=>t.cancellation??unknownText}];
 export function Compare({trips,initialIds,presentation=false}:{trips:Trip[];initialIds:string[];presentation?:boolean}){
  const ctx=useTripContext(),[projector,setProjector]=useState(presentation);

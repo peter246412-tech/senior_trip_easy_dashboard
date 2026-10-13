@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-13",
+  "presentationMealPlans": 18,
+  "actualMealDataAdded": false,
+  "unitTests": 29,
+  "browserTests": 18,
+  "browserTestSeconds": 27.8,
+  "failed": 0,
+  "typecheck": "original/public passed",
+  "build": "original/public passed",
+  "mobileAccessibilityViolations": 0,
+  "baseProductsAndRecommendationUnchanged": true,
+  "existingOpenMeteoEndpointUnchanged": true,
+  "apiPriorityTests": "mocked successful/failed responses",
+  "deployment": "awaiting upload of existing folder"
+}

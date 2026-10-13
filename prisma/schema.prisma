@@ -29,6 +29,8 @@ model TravelProduct {
  image String
  styles Json
  places Json
+ presentationDemo Json?
+ meals Json?
  flights Json?
  placeListComplete Boolean @default(false)
  hotel String?

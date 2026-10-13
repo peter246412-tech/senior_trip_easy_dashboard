@@ -1,0 +1,254 @@
+{
+  "real-hana-kyushu": {
+    "meals": {
+      "korean": 1,
+      "local": 6,
+      "free": 1
+    },
+    "weather": {
+      "city": "후쿠오카",
+      "month": 2,
+      "low": 5,
+      "high": 12
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "real-yb-osaka": {
+    "meals": {
+      "korean": 0,
+      "local": 6,
+      "free": 2
+    },
+    "weather": {
+      "city": "오사카",
+      "month": 2,
+      "low": 4,
+      "high": 11
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "real-easy-921": {
+    "meals": {
+      "korean": 3,
+      "local": 4,
+      "free": 0
+    },
+    "weather": {
+      "city": "후쿠오카",
+      "month": 2,
+      "low": 5,
+      "high": 12
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "real-easy-986": {
+    "meals": {
+      "korean": 4,
+      "local": 3,
+      "free": 1
+    },
+    "weather": {
+      "city": "후쿠오카",
+      "month": 2,
+      "low": 5,
+      "high": 12
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "real-vgt-025": {
+    "meals": {
+      "korean": 3,
+      "local": 5,
+      "free": 2
+    },
+    "weather": {
+      "city": "삿포로",
+      "month": 2,
+      "low": -7,
+      "high": -1
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "real-vgt-6690": {
+    "meals": {
+      "korean": 1,
+      "local": 7,
+      "free": 2
+    },
+    "weather": {
+      "city": "오사카",
+      "month": 2,
+      "low": 4,
+      "high": 11
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-01": {
+    "meals": {
+      "korean": 3,
+      "local": 4,
+      "free": 1
+    },
+    "weather": {
+      "city": "후쿠오카",
+      "month": 11,
+      "low": 10,
+      "high": 18
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-02": {
+    "meals": {
+      "korean": 1,
+      "local": 5,
+      "free": 2
+    },
+    "weather": {
+      "city": "후쿠오카",
+      "month": 11,
+      "low": 10,
+      "high": 18
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-03": {
+    "meals": {
+      "korean": 4,
+      "local": 2,
+      "free": 2
+    },
+    "weather": {
+      "city": "후쿠오카",
+      "month": 11,
+      "low": 10,
+      "high": 18
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-04": {
+    "meals": {
+      "korean": 2,
+      "local": 4,
+      "free": 1
+    },
+    "weather": {
+      "city": "후쿠오카",
+      "month": 11,
+      "low": 10,
+      "high": 18
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-05": {
+    "meals": {
+      "korean": 2,
+      "local": 5,
+      "free": 1
+    },
+    "weather": {
+      "city": "오사카",
+      "month": 11,
+      "low": 8,
+      "high": 17
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-06": {
+    "meals": {
+      "korean": 1,
+      "local": 4,
+      "free": 2
+    },
+    "weather": {
+      "city": "오사카",
+      "month": 11,
+      "low": 8,
+      "high": 17
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-07": {
+    "meals": {
+      "korean": 3,
+      "local": 3,
+      "free": 2
+    },
+    "weather": {
+      "city": "오사카",
+      "month": 11,
+      "low": 8,
+      "high": 17
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-08": {
+    "meals": {
+      "korean": 2,
+      "local": 3,
+      "free": 3
+    },
+    "weather": {
+      "city": "오사카",
+      "month": 11,
+      "low": 8,
+      "high": 17
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-09": {
+    "meals": {
+      "korean": 3,
+      "local": 6,
+      "free": 2
+    },
+    "weather": {
+      "city": "삿포로",
+      "month": 11,
+      "low": 0,
+      "high": 8
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-10": {
+    "meals": {
+      "korean": 2,
+      "local": 7,
+      "free": 2
+    },
+    "weather": {
+      "city": "삿포로",
+      "month": 11,
+      "low": 0,
+      "high": 8
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-11": {
+    "meals": {
+      "korean": 4,
+      "local": 5,
+      "free": 2
+    },
+    "weather": {
+      "city": "삿포로",
+      "month": 11,
+      "low": 0,
+      "high": 8
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  },
+  "demo-12": {
+    "meals": {
+      "korean": 2,
+      "local": 6,
+      "free": 2
+    },
+    "weather": {
+      "city": "삿포로",
+      "month": 11,
+      "low": 0,
+      "high": 8
+    },
+    "note": "발표용 가상 식사 구성과 기온 예시입니다. 실제 여행사 정보·기후 통계·날씨 예보가 아닙니다."
+  }
+}
