@@ -41,17 +41,39 @@ export function recommend(t: Trip, p: Preference) {
  const total=factors.reduce((s,f)=>s+f.weight,0);
  return {score:Math.round(factors.reduce((s,f)=>s+f.weight*f.fit,0)/total*100),coverage:Math.round(factors.reduce((s,f)=>s+f.weight*f.confidence,0)/total*100),factors,reasons:factors.filter(f=>f.fit>=0.75&&f.confidence>0).sort((a,b)=>b.weight-a.weight).map(f=>f.reason).slice(0,3),warnings:[...new Set(warnings)]};
 }
+export function comparisonLabel(index:number){return `${String.fromCharCode(65+index)} 상품`;}
+function priceDifference(n:number){return n>=10000&&n%10000===0?`${n/10000}만 원`:`${n.toLocaleString("ko-KR")}원`;}
 export function comparisonSummary(trips:Trip[]) {
  if(trips.length<2)return[];
- const a=trips[0];return trips.slice(1).flatMap(b=>{
- const lines:string[]=[];
- if(a.price!==null&&b.price!==null){const delta=b.price-a.price;lines.push(delta===0?`${a.name}과 ${b.name}의 표시 가격은 같습니다.`:`${a.name}과 비교해 ${b.name}은 ${Math.abs(delta).toLocaleString("ko-KR")}원 ${delta>0?"더 비쌉니다":"더 저렴합니다"}.`);}
- for(const [kind,label,unit] of [["walking","걷는 거리","km"],["rest","휴식 시간","분"],["vehicle","차량 이동","분"]] as const){
+ const a=trips[0];
+ return trips.slice(1).flatMap((b,index)=>{
+ const label=comparisonLabel(index+1),clauses:{join:string;end:string}[]=[],missing:string[]=[];
+ const priceDelta=a.price!==null&&b.price!==null?b.price-a.price:null;
+ const lessWalking=metricValue(a,"walking")!==null&&metricValue(b,"walking")!==null&&metricValue(b,"walking")!<metricValue(a,"walking")!;
+ const moreWalking=metricValue(a,"walking")!==null&&metricValue(b,"walking")!==null&&metricValue(b,"walking")!>metricValue(a,"walking")!;
+ const lessRest=metricValue(a,"rest")!==null&&metricValue(b,"rest")!==null&&metricValue(b,"rest")!<metricValue(a,"rest")!;
+ if(priceDelta===null)missing.push(`${a.price===null?"A 상품":label}의 가격 정보`);
+ else if(priceDelta===0)clauses.push({join:"가격이 같고",end:"가격이 같습니다"});
+ else {const cheaper=priceDelta<0,contrast=cheaper&&(moreWalking||lessRest)||!cheaper&&lessWalking;const price=`가격이 ${priceDifference(Math.abs(priceDelta))} ${cheaper?"저렴":"비쌉"}`;clauses.push({join:cheaper?`${price}${contrast?"하지만":"하고"}`:`가격이 ${priceDifference(priceDelta)} ${contrast?"비싸지만":"비싸고"}`,end:cheaper?`${price}합니다`:`가격이 ${priceDifference(priceDelta)} 비쌉니다`});}
+ for(const [kind,name,unit] of [["walking","하루 보행 거리","km"],["rest","휴식 시간","분"],["vehicle","차량 이동 시간","분"]] as const){
  const av=metricValue(a,kind),bv=metricValue(b,kind);
- if(av===null||bv===null){lines.push(`${av===null?a.name:b.name}은 ${label}를 비교할 정보가 부족합니다.`);continue;}
+ if(av===null||bv===null){missing.push(`${av===null?"A 상품":label}의 ${name} 정보`);continue;}
  const difference=Number(Math.abs(bv-av).toFixed(1));
- lines.push(`${b.name}의 하루 ${label}는 ${bv}${unit}, ${a.name}과 ${difference}${unit} 차이입니다${a.isDemo||b.isDemo?" (DEMO 예시 기준)":""}.`);
+ const prefix=kind==="walking"?"하루 보행 거리는":`${name}은`;
+ clauses.push(difference===0?{join:`${prefix} 같고`,end:`${prefix} 같습니다`}:bv>av?{join:`${prefix} ${difference}${unit} 길고`,end:`${prefix} ${difference}${unit} 깁니다`}:{join:`${prefix} ${difference}${unit} 짧고`,end:`${prefix} ${difference}${unit} 짧습니다`});
  }
+ const lines:string[]=[];
+ if(clauses.length)lines.push(`${label}은 A 상품보다 ${clauses.map((c,i)=>i===clauses.length-1?c.end:c.join).join(" ")}.${a.isDemo||b.isDemo?" (데모 예시 기준 · 실제 분석 결과 아님)":""}`);
+ if(missing.length)lines.push(`${missing.join(" · ")}가 없어 해당 항목을 비교할 정보가 부족합니다.`);
  return lines;
  });
+}
+export function tiedScoreDifferences(trip:Trip,peers:Trip[]){
+ if(peers.length<2)return[];
+ const lines:string[]=[];
+ const prices=peers.map(t=>t.price);
+ if(trip.price!==null&&prices.every((v):v is number=>v!==null)){const min=Math.min(...prices);lines.push(trip.price===min?"동점 상품 중 최저가":`동점 최저가보다 ${priceDifference(trip.price-min)} 높음`);}
+ else lines.push("동점 상품의 가격 정보 일부 없음");
+ for(const [kind,label,best] of [["walking","걷기","min"],["rest","휴식","max"]] as const){const values=peers.map(t=>metricValue(t,kind)),value=metricValue(trip,kind);if(value===null||values.some(v=>v===null)){lines.push(`동점 상품의 ${label} 정보 일부 없음`);continue;}const optimum=best==="min"?Math.min(...values as number[]):Math.max(...values as number[]),difference=Number(Math.abs(value-optimum).toFixed(1));lines.push(difference===0?`동점 상품 중 ${kind==="walking"?"가장 짧은 걷기":"가장 긴 휴식"}`:kind==="walking"?`동점 최소 보행보다 ${difference}km/일 김`:`동점 최장 휴식보다 ${difference}분/일 짧음`);}
+ return lines;
 }
