@@ -1,6 +1,2 @@
 import { NextResponse } from "next/server";
-import { isAdmin,sameOrigin } from "@/lib/auth";
-import { db,saveTrip } from "@/lib/db";
-import { parseImport } from "@/lib/csv";
-import { tripSchema } from "@/lib/validation";
-export async function POST(req:Request){if(!sameOrigin(req)||!await isAdmin())return NextResponse.json({error:"관리자 인증 필요"},{status:403});try{const form=await req.formData();const file=form.get("file");if(!(file instanceof File)||file.size>2000000)throw new Error("2MB 이하 JSON/CSV 파일을 선택해주세요");const format=file.name.endsWith(".csv")?"csv":file.name.endsWith(".json")?"json":null;if(!format)throw new Error("JSON 또는 CSV만 지원합니다");const items=parseImport(await file.text(),format);if(items.length<1||items.length>100)throw new Error("한 번에 1~100개만 업로드할 수 있습니다");const trips=items.map((t,i)=>{const result=tripSchema.safeParse(t);if(!result.success)throw new Error(`${i+1}번 상품: ${result.error.message}`);return result.data;});if(new Set(trips.map(t=>t.id)).size!==trips.length)throw new Error("중복 ID가 있습니다");await db.$transaction(async tx=>{for(const t of trips){if(await tx.travelProduct.findUnique({where:{id:t.id}}))throw new Error(`이미 있는 ID: ${t.id}. 수정은 편집 화면에서 해주세요`);await saveTrip(t,tx);}},{timeout:20000});return NextResponse.json({count:trips.length});}catch(e){return NextResponse.json({error:e instanceof Error?e.message:"업로드 오류"},{status:400});}}
+export async function POST(){return NextResponse.json({error:"발표용 사이트에서는 상품을 수정할 수 없습니다."},{status:403});}

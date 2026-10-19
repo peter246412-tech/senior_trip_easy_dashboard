@@ -6,16 +6,9 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
     "build": "next build --webpack",
-    "start": "next start --hostname 127.0.0.1",
+    "start": "next start",
     "typecheck": "tsc --noEmit",
-    "db:generate": "prisma generate",
-    "db:push": "prisma db push",
-    "db:seed": "tsx prisma/seed.ts",
-    "setup": "node scripts/bootstrap.mjs && npm run db:generate && npm run db:push && npm run db:seed",
-    "test": "tsx --test tests/core.test.ts",
-    "test:e2e": "playwright test",
-    "db:review": "tsx scripts/review-seed.ts",
-    "vercel-build": "node scripts/vercel-build.mjs"
+    "test": "tsx --test tests/core.test.ts"
   },
   "keywords": [],
   "author": "",
@@ -45,8 +38,5 @@
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   },
-  "private": true,
-  "prisma": {
-    "seed": "tsx prisma/seed.ts"
-  }
+  "private": true
 }

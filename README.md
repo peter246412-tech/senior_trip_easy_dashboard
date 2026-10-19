@@ -1,124 +1,36 @@
-# 여행이지 · TripEasy
+# 여행이지 / TripEasy 글로벌 비즈니스 발표용 MVP
 
-부모님의 국내외 패키지여행을 준비하는 40~50대 성인 자녀를 위한 비교·추천 MVP입니다. 현재 일본 상품으로 시연하며, 로컬 SQLite에 실제 조사 상품 6개와 가상 상품 12개를 저장합니다. API 키 없이 검색·추천·비교·부모님 화면·관리자 CRUD가 작동합니다.
+## GitHub 브랜치 안내
 
-## 저장소 브랜치와 공개 사이트
+현재 브랜치는 `presentation`이며 공개 시연용 읽기 전용 소스입니다. 기말에 업그레이드할 전체 개발 원본(SQLite·관리자 기능)은 [`main`](https://github.com/peter246412-tech/senior_trip_easy_dashboard/tree/main)에 보관합니다.
 
-- `main`: 기말 업그레이드를 위한 전체 개발 원본입니다. SQLite와 관리자 기능을 포함합니다. 아래 로컬 실행 안내는 이 브랜치 기준입니다.
-- `presentation`: 현재 공개 사이트와 같은 DB 없는 발표용 소스입니다. Vercel에서 이 브랜치를 선택하고 `npm run build`로 빌드합니다. 별도 환경변수는 필요하지 않습니다. 상품은 읽기 전용이며 관리자 수정 기능은 제공하지 않습니다.
+Vercel Git 연결 시 Production Branch를 `presentation`, Build Command를 `npm run build`로 설정합니다. 이 브랜치는 별도 DB나 비밀 환경변수 없이 빌드됩니다. 현재 공개 사이트는 아래 URL이며, GitHub 푸시만으로 기존 Vercel Drop 배포가 자동 갱신되지는 않습니다.
 
-공개 사이트: [https://tripeasy-three.vercel.app/](https://tripeasy-three.vercel.app/)
+발표 대본: [docs/PRESENTATION_SCRIPT.md](docs/PRESENTATION_SCRIPT.md). AI·지도 자동 분석 등 향후 개발 계획은 현재 구현과 구분합니다.
 
-발표 대본: [docs/PRESENTATION_SCRIPT.md](docs/PRESENTATION_SCRIPT.md). 현재 MVP 구현과 향후 AI 기술·사업화 계획은 구분합니다.
+국내외 패키지여행 비교 플랫폼입니다. 현재 일본 상품으로 시연합니다.
+실제 조사 6개 + 가상 상품 12개. AI 자동 분석·지도 거리 계산·실제 결제·제휴는 미구현입니다.
 
-## 빠른 실행
+## 기존 공개 사이트 갱신
 
-Node.js 22 이상(검증 환경: Node 24), npm이 필요합니다.
+1. https://vercel.com/trip-easy/tripeasy 열기
+2. 기존 프로젝트 화면에 이 폴더를 드래그앤드롭해 Production Deployment 갱신
+3. Framework Next.js / Build Command npm run build / 추가 환경 변수 없음
+4. Ready 확인 후 Visit과 시크릿 창에서 확인
 
-```bash
-cd easy-trip
-npm ci
-npm run setup
-npm run dev
-```
+현재 주소: https://tripeasy-three.vercel.app/
+재배포 후 시연: /preferences?demo=1
+빠른 추천: /trips?recommended=1&demo=1
+비교: /compare?ids=demo-01,demo-02,demo-03&demo=1
 
-http://127.0.0.1:3000 에 접속합니다. 이미 의존성과 DB가 준비된 현재 작업 환경에서는 `npm run dev`만 실행하면 됩니다.
+홈 → 발표 시연 시작하기 → 다음 3회 → 추천받기 → 추천 3개 한눈에 비교하기.
+시연 조건은 일반 조건과 별도로 저장하며 시연 종료 시 기존 조건을 복원합니다.
+공개 버전은 브라우저에만 조건을 저장하고 서버에서 상품을 수정하지 않습니다.
+원본 프로젝트의 관리자·DB 기능은 별도로 유지됩니다.
 
-`setup`은 `.env`가 없는 경우 무작위 관리자 비밀번호와 서명 키를 만들고 `local-admin.txt`에 비밀번호를 남깁니다. 기존 환경변수·상품은 덮어쓰지 않습니다. `.env.example`은 직접 설정할 때 참고하세요. 관리자 주소는 `/admin`이며 공개 내비게이션에 노출되지 않습니다.
+타입 검사·빌드 및 테스트 결과와 데이터 출처는 함께 제공한 결과 보고서를 확인하세요.
+로컬 확인: npm ci → npm run build → npm start.
 
-## 시연 흐름
+## 식사·날씨 업데이트
 
-1. 홈에서 **우리 부모님께 맞는 여행 찾기** 선택
-2. 온천과 휴식 → 짧은 거리 걷기 → 계단 피하기 선택
-3. 규슈, 2명, 1인 100만원 입력
-4. 걷기·휴식·가격을 우선순위로 추천 완료
-5. 기본 **추천 여행** 탭에서 가상 이동·휴식 정보와 추천 결과 확인
-6. 가장 잘 맞는 상품의 프리미엄 테두리 확인. **여행사 상품** 탭에서는 미확인 정보를 구분해 표시
-7. `+` 버튼으로 상품 3개를 담고 **여행 비교하기** 선택
-8. 추천 근거와 가격·이동·휴식 차이 확인
-9. **부모님께 보여드리기**로 큰 글씨 일정 확인
-10. 실제 상품 상세에서 **원본 상품 확인** 열기
-
-직접 여행하는 시니어 전용 추천은 준비 중으로 안내합니다. 이 MVP는 자녀의 여행 선물 시나리오에 집중합니다.
-
-## 가독성과 추가 여행 조건
-
-기본 글씨는 20px, 큰 글씨 모드는 24px입니다. 모바일 상품 카드는 1열이며 주요 버튼은 높이 60px 이상으로 표시합니다. 항공편의 시간·기종·좌석 정보와 여행 시기별 기후를 확인할 수 있고, 가까운 날짜는 도시별 실제 예보를 조회할 수 있습니다. 필수 방문 장소를 입력하면 모든 장소가 일정에서 확인된 상품만 표시합니다.
-
-## 페이지와 기능
-
-| 경로 | 기능 |
-| --- | --- |
-| `/` | 브랜드, 가족 여행 선택, 추천 진입, DEMO 비교 예시 |
-| `/preferences` | 4단계 선호 입력, 이전 단계 수정, 우선순위 최대 3개 |
-| `/trips` | 검색, 지역/예산/기간/이동/휴식/온천/여행사 필터, 정렬 |
-| `/trips/[id]` | 출처, 확인 날짜, 일정, 추천 점수 근거, 원본 링크 |
-| `/compare` | 최대 3개 비교, 데이터에 근거한 차이 설명, 추가 정보 펼치기 |
-| `/parents/[id]` | 큰 글씨 일정, 이동·휴식 핵심 정보, 링크 복사, 인쇄 |
-| `/booking/[id]` | 가상 예약·결제 체험, 인원별 총액 계산, 실제 청구 없음 |
-| `/about` | 서비스, 점수 계산, 정보 상태, 데이터·개인정보 안내 |
-| `/admin` | 인증, 상품 CRUD, 일정표, JSON/CSV 업로드·내보내기, 파서 |
-
-공유 링크는 개인 선호를 포함하지 않는 상품 ID 경로입니다. 공개 사이트의 상품·부모님 화면 링크는 다른 기기에서도 열 수 있습니다. 로컬 주소는 같은 컴퓨터에서만 사용합니다.
-
-## 관리자 사용
-
-`local-admin.txt` 비밀번호로 로그인합니다. 환경변수의 비밀번호는 12자 이상, AUTH_SECRET은 32자 이상이어야 합니다. 기본 암호를 소스에 넣지 않았습니다. HMAC 서명된 HTTP-only SameSite Strict 쿠키(8시간), 로그인 횟수 제한, 변경 요청의 출처 검사, 서버 Zod 검증을 적용했습니다.
-
-폼에서는 기본 정보·이동 평가·근거·일정을 편집할 수 있습니다. 숙박·항공·포함 사항 등 전체 필드는 **전체 JSON 편집**을 열고 **JSON을 폼에 적용**한 뒤 **상품 저장**하세요. 검증/가격 확인 시각은 출처를 실제 확인했을 때만 갱신하세요. 수정일은 DB가 자동 기록합니다.
-
-업로드는 최대 2MB, 100개이며 오류가 있는 파일은 전체 등록을 취소합니다. 중복 ID는 덮어쓰지 않고 거부합니다. 예제 파일은 홈페이지 `/sample-products.json`, `/sample-products.csv` 또는 `public/`에 있습니다. CSV 형식은 **product_json 열 하나**에 전체 상품 JSON을 RFC 4180 방식으로 넣습니다. 관리자 내보내기도 같은 형식입니다. 일반 여행사 CSV 자동 열 매핑은 미구현입니다.
-
-## 추천의 신뢰성
-
-`src/lib/recommendation-config.ts`에서 가중치와 우선순위 배수를 변경합니다. 핵심 조건은 보행 25, 휴식 20, 스타일 20, 예산 15, 차량 10, 쇼핑 10입니다. 계단·기간·관광 밀도 조건이 활성화되면 이를 추가하고 전체를 정규화합니다.
-
-**조건 일치 점수 = Σ(일치도 × 적용 가중치) / Σ(활성 가중치) × 100**
-
-미확인 조건은 일치도 0으로 반영합니다. 검증된 정확도로 오해할 수 있는 근거 신뢰도 백분율은 화면에 표시하지 않습니다. 수치의 확인 여부와 출처·데모 예시 등 데이터 상태는 상세·서비스 안내에서 구분합니다. 시연 상품의 기본 조건 평균은 약 89점이며, 실제 조건에 따라 달라집니다. 최소점수 보정이나 랜덤 점수는 사용하지 않습니다. 나이는 점수에 사용하지 않습니다. 지역은 목록 조건, 출발월·공항·인원은 확인/불일치 경고로 반영합니다. 점수는 검증된 확률, 의료적 안전성 또는 출발 보장이 아닙니다.
-
-DEMO 이동 수치는 실제 측정이나 지도 결과가 아닙니다. 실제 상품은 공개 근거가 없는 보행·차량·휴식·계단 정보를 `null/unknown`으로 유지합니다.
-
-## 기술 구조
-
-Next.js App Router, TypeScript, Tailwind v4, shadcn/ui 패턴 기반 Button/Radix Slot, Lucide, Prisma 6.12, SQLite, Zod, Playwright, axe-core를 사용합니다. 전체 shadcn 컴포넌트 카탈로그를 설치한 프로젝트는 아닙니다.
-
-- `prisma/schema.prisma`: TravelAgency, TravelProduct, DepartureOption, ItineraryDay, ItineraryStop, MobilityAssessment, DataSource, UserPreference, ComparisonHistory
-- `src/lib/db.ts`: 데이터 정규화·저장·조회 (화면 계층과 분리)
-- `src/lib/recommend*.ts`: 설명 가능한 점수와 비교 문장
-- `src/lib/parser.ts`: 교체 가능한 일정표 파서, 근거·신뢰도·JSON 저장
-- `src/lib/maps.ts`: Google Places/Routes 연동 인터페이스. 실제 호출은 미연결
-- `src/lib/collection.ts`: 정책/권한 확인 전 기본 거부인 수집 계층
-- `src/lib/i18n.ts`: 한국어·통화·서울 시간대 설정
-- `src/app/api/`: 인증·상품·선호·비교·업로드·분석 API
-
-PostgreSQL 전환 시 datasource provider와 DATABASE_URL을 변경하고 새 마이그레이션 및 데이터를 이전해야 합니다. 현재 SQLite를 실제 PostgreSQL로 전환하거나 이전 검증을 수행하지는 않았습니다.
-
-개인 선호는 브라우저에 저장되고 서버에는 익명 세션당 최신 입력과 비교 상품 ID를 30일 보관합니다. 서버 만료 기록은 다음 저장 요청에서 정리합니다. 계정·건강정보는 수집하지 않습니다. 부모님 공유 화면에는 선호를 넣지 않습니다.
-
-## 검증
-
-```bash
-npm run typecheck
-npm run build
-npm test
-npx playwright install chromium
-npm run start
-# 다른 터미널에서
-npm run test:e2e
-```
-
-브라우저 테스트는 3000번 포트의 로컬 서버를 사용합니다. 테스트는 별도 브라우저 프로필을 사용하며 임시 상품을 등록 후 삭제합니다. 실제 데이터를 사용하는 관리자 변경 테스트이므로 별도 DB에서 실행하는 것을 권장합니다.
-
-## 시연용 프로덕션 실행
-
-```bash
-npm run build
-npm run start
-```
-
-macOS에서는 `start-easy-trip.command`를 더블클릭하거나 터미널에서 실행할 수 있습니다. 포트 3000이 이미 사용 중이면 기존 여행이지 서버를 사용하거나 먼저 종료하세요.
-
-전체 개발 원본을 외부 HTTPS 서버에 배포하려면 `APP_ORIGIN=https://your-domain.example`, `COOKIE_SECURE=true`를 설정하고 인증의 로그인 제한을 공유 저장소로 교체하세요. 현재 로컬 기본 바인딩은 127.0.0.1입니다. DB 없는 발표용 버전은 위 공개 사이트에 배포되어 있으며, 전체 개발 원본의 DB·관리자 기능과 구분됩니다. 여행사 공식 제휴·실제 예약·실제 결제는 미구현입니다. 예약 화면은 실제 청구 없이 흐름만 체험합니다.
-
-조사 결과와 미구현 범위: [docs/RESEARCH.md](docs/RESEARCH.md), [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md). 이미지 출처: [docs/ASSETS.md](docs/ASSETS.md).
+prisma/presentation-demo.json에 18개 상품의 가상 식사·기온을 분리했습니다. 실제 예보가 유효하면 데모 기온을 대체합니다. 최신 결과는 docs/MEAL_WEATHER_REPORT.md를 확인하세요.
