@@ -1,4 +1,5 @@
 "use client";
+import { tripPhoto } from "@/lib/travel-photos";
 import { CardFacts } from "./card-facts";
 import { metricDisplay } from "@/lib/data-state";
 import { countryName } from "@/lib/destinations";
@@ -13,7 +14,7 @@ export function TripCard({trip:t,rank,premium=false,tiedPeers=[]}:{trip:Trip;ran
  const ctx=useTripContext(),r=recommend(t,ctx.preference),selected=ctx.ids.includes(t.id);
  return <article className={`trip-card polished-card ${selected?"selected":""} ${premium?"premium":""}`}>
   <div className={premium?"premium-ribbon":"standard-ribbon"}>{premium?<><Crown size={18}/><span>가장 잘 맞는 여행</span></>:<span>{rank?`추천 ${rank}`:"부모님 맞춤 여행"}</span>}</div>
-  <div className="trip-image"><img src={t.image} alt={`${t.region} 여행 분위기 참고 이미지 (실제 상품 사진 아님)`} loading="lazy"/><span className="data-badge trip-style-badge">{t.styles[0]??"여행상품"}</span><button className={`compare-add ${selected?"added":""}`} aria-label={`${t.name} ${selected?"비교 빼기":"비교 담기"}`} aria-pressed={selected} onClick={()=>ctx.toggle(t.id)}>{selected?<Check size={20}/>:<Plus size={20}/>}</button></div>
+  <div className="trip-image"><img src={tripPhoto(t).src} alt={tripPhoto(t).alt} loading="lazy"/><span className="data-badge trip-style-badge">{t.styles[0]??"여행상품"}</span><button className={`compare-add ${selected?"added":""}`} aria-label={`${t.name} ${selected?"비교 빼기":"비교 담기"}`} aria-pressed={selected} onClick={()=>ctx.toggle(t.id)}>{selected?<Check size={20}/>:<Plus size={20}/>}</button></div>
   <div className="trip-body"><div className="trip-meta">{countryName(t.country)} · {t.region} · {t.days-1}박 {t.days}일</div><Link href={`/trips/${t.id}`} className="trip-name">{t.name}</Link>
    <div className="trip-facts" aria-label="핵심 여행 정보">{([{kind:"walking",label:"걷기",Icon:Footprints},{kind:"rest",label:"휴식",Icon:Armchair},{kind:"vehicle",label:"차량",Icon:Bus}] as const).map(({kind,label,Icon})=><div className={`trip-fact fact-${kind}`} key={kind}><Icon aria-hidden="true"/><span className="fact-label">{label}</span><strong className="fact-value">{metricDisplay(t,kind).split(" · ")[0]}</strong></div>)}<CardFacts trip={t}/></div>
    <div className={`match-row ${r.score>=80?"high-match":""}`}><span>조건 일치 점수 <strong>{r.score}<small>/100</small></strong></span><span className="subtle">{r.score>=90?"아주 잘 맞아요":r.score>=80?"잘 맞아요":"조건을 비교해보세요"}</span></div>

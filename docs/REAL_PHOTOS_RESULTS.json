@@ -1,0 +1,220 @@
+{
+  "status": "passed",
+  "screens": 27,
+  "consoleErrors": [],
+  "results": [
+    {
+      "width": 1440,
+      "route": "/",
+      "images": [
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-autumn.webp",
+        "/images/japan/osaka-castle.webp"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/trips?recommended=1&demo=1",
+      "images": [
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-autumn.webp",
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/compare?ids=demo-01,demo-02,demo-03&demo=1",
+      "images": [
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-autumn.webp",
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/trips/demo-01",
+      "images": [
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/parents/demo-01",
+      "images": [
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/trips/demo-05",
+      "images": [
+        "/images/japan/osaka-castle.webp"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/trips/demo-09",
+      "images": [
+        "/images/japan/otaru-canal.webp"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/trips/real-vgt-025",
+      "images": [
+        "/images/japan/biei-blue-pond.webp"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "images": [
+        "/images/japan/osaka-castle.webp"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "images": [
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-autumn.webp",
+        "/images/japan/osaka-castle.webp"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/trips?recommended=1&demo=1",
+      "images": [
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-autumn.webp",
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/compare?ids=demo-01,demo-02,demo-03&demo=1",
+      "images": [
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-autumn.webp",
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/trips/demo-01",
+      "images": [
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/parents/demo-01",
+      "images": [
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/trips/demo-05",
+      "images": [
+        "/images/japan/osaka-castle.webp"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/trips/demo-09",
+      "images": [
+        "/images/japan/otaru-canal.webp"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/trips/real-vgt-025",
+      "images": [
+        "/images/japan/biei-blue-pond.webp"
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/about",
+      "images": [
+        "/images/japan/osaka-castle.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "images": [
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-autumn.webp",
+        "/images/japan/osaka-castle.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/trips?recommended=1&demo=1",
+      "images": [
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-autumn.webp",
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/compare?ids=demo-01,demo-02,demo-03&demo=1",
+      "images": [
+        "/images/japan/yufuin-lake.webp",
+        "/images/japan/yufuin-autumn.webp",
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/trips/demo-01",
+      "images": [
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/parents/demo-01",
+      "images": [
+        "/images/japan/yufuin-lake.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/trips/demo-05",
+      "images": [
+        "/images/japan/osaka-castle.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/trips/demo-09",
+      "images": [
+        "/images/japan/otaru-canal.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/trips/real-vgt-025",
+      "images": [
+        "/images/japan/biei-blue-pond.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/about",
+      "images": [
+        "/images/japan/osaka-castle.webp"
+      ]
+    }
+  ]
+}
